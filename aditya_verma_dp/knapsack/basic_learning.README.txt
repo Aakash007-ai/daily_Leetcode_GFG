@@ -1,0 +1,2 @@
+vecotr<int> v(5); //create a vector of size 5 with each value = 0
+vector<int> v(5,4) //now each values will be 4 
