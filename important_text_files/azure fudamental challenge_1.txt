@@ -1,0 +1,86 @@
+create an Azure virtual machine (VM) and install 
+Nginx, a popular web server.
+
+
+note down all previous commands
+
+on Azure cloud shell
+az vm create
+
+
+
+command to create a Linux virtual machine using azure cli 
+
+az vm create \
+  --resource-group learn-9d7cc5a0-b83e-43e5-8000-8a33a05a0b6c \
+  --name my-vm \
+  --public-ip-sku Standard \
+  --image Ubuntu2204 \
+  --admin-username azureuser \
+  --generate-ssh-keys
+
+
+ //command to install nginx
+
+az vm extension set \
+  --resource-group learn-9d7cc5a0-b83e-43e5-8000-8a33a05a0b6c \
+  --vm-name my-vm \
+  --name customScript \
+  --publisher Microsoft.Azure.Extensions \
+  --version 2.1 \
+  --settings '{"fileUris":["https://raw.githubusercontent.com/MicrosoftDocs/mslearn-welcome-to-azure/master/configure-nginx.sh"]}' \
+  --protected-settings '{"commandToExecute": "./configure-nginx.sh"}'
+
+
+
+
+Azure virtual desktop 
+Azure Virtual Desktop is a desktop and application virtualization service that runs on the cloud. It enables you to use a cloud-hosted version of Windows from any location.
+
+
+To verify the VM you created previously is still running, use the following command:
+az vm list
+
+
+
+Run the following az vm list-ip-addresses command to get your VM's IP address and store the result as a Bash variable:
+
+IPADDRESS="$(az vm list-ip-addresses \
+  --resource-group learn-9d7cc5a0-b83e-43e5-8000-8a33a05a0b6c \
+  --name my-vm \
+  --query "[].virtualMachine.network.publicIpAddresses[*].ipAddress" \
+  --output tsv)"
+
+
+
+[
+  {
+    "virtualMachine": {
+      "name": "my-vm",
+      "network": {
+        "privateIpAddresses": [
+          "10.0.0.4"
+        ],
+        "publicIpAddresses": [
+          {
+            "id": "/subscriptions/081f341e-de8f-4bcd-8946-3fa44b5188e0/resourceGroups/learn-9d7cc5a0-b83e-43e5-8000-8a33a05a0b6c/providers/Microsoft.Network/publicIPAddresses/my-vmPublicIP",
+            "ipAddress": "40.118.150.27",
+            "ipAllocationMethod": "Static",
+            "name": "my-vmPublicIP",
+            "resourceGroup": "learn-9d7cc5a0-b83e-43e5-8000-8a33a05a0b6c",
+            "zone": null
+          }
+        ]
+      },
+      "resourceGroup": "learn-9d7cc5a0-b83e-43e5-8000-8a33a05a0b6c"
+    }
+  }
+]
+
+
+
+
+
+Run the following curl command to download the home page:
+curl --connect-timeout 5 http://$IPADDRESS
+
