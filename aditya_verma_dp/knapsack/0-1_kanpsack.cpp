@@ -23,19 +23,20 @@ class Solution
     //Function to return max value that can be put in knapsack of capacity W.
     // here after declaring table we intilaize them also with initial value
     //then convert n, w to i and j and prev call to dp[n-1][j] or dp[n-1][j-1] or dp[n][j-1]
-    int knapSack(int W, int wt[], int val[], int n) { 
-        vector<vector<int>> dp(n+1,vector<int>(W+1,0));
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=W;j++){
-                if(wt[i-1]>j){
-                    dp[i][j]= dp[i-1][j];
-                }else{
-                    dp[i][j]= max(val[i-1]+dp[i-1][j-wt[i-1]],dp[i-1][j]);
-                }
-            }
-        }
-       return dp[n][W];
-    }
+
+    // int knapSack(int W, int wt[], int val[], int n) { 
+    //     vector<vector<int>> dp(n+1,vector<int>(W+1,0));
+    //     for(int i=1;i<=n;i++){
+    //         for(int j=1;j<=W;j++){
+    //             if(wt[i-1]>j){
+    //                 dp[i][j]= dp[i-1][j];
+    //             }else{
+    //                 dp[i][j]= max(val[i-1]+dp[i-1][j-wt[i-1]],dp[i-1][j]);
+    //             }
+    //         }
+    //     }
+    //    return dp[n][W];
+    // }
 
 
 
@@ -67,17 +68,17 @@ class Solution
     // }
 
     //recursion
-    // int knapSack(int W, int wt[], int val[], int n) 
-    // { 
-    //    // Your code here
-    //    if(n==0) return 0;
-    //    if(W==0) return 0;
+    int knapSack(int W, int wt[], int val[], int n) 
+    { 
+       // Your code here
+       if(n==0) return 0;
+       if(W==0) return 0;
 
-    //    if(wt[n-1]>W){
-    //     return knapSack(W,wt,val,n-1);
-    //    }
-    //    return max(val[n-1]+knapSack(W-wt[n-1],wt,val,n-1),knapSack(W,wt,val,n-1));
-    // }
+       if(wt[n-1]>W){
+        return knapSack(W,wt,val,n-1);
+       }
+       return max(val[n-1]+knapSack(W-wt[n-1],wt,val,n-1),knapSack(W,wt,val,n-1));
+    }
 };
 
 int main(){

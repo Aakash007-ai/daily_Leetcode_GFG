@@ -17,3 +17,7 @@ if it is even then find subset sum partition</p>
 <li><h3>count number of subset sum with given sum</h3><p></p></li>
 
 <li><h3> minimum subset sum difference<h3>
+
+</li>
+
+### Matrix Chain Multiplication
