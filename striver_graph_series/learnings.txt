@@ -1,0 +1,18 @@
+for graph question first start solving with basic idea and flow
+optimized along with code and add whatever it required in flow 
+
+e.g. visited array  (an array(if data structure of node is integer) or unordered set (set if data structer of node is bigger and complex e.g. string))
+
+
+//inorder to reduce for loop in bfs in graph we add it in queue as pair of node and level
+
+//also if want to break loop but we are in deeeply nested loop try to come up breaking loop at starting of queue pop
+
+
+
+ASCII characher
+
+
+
+//convert a string to lower case
+transform(arr.begin(),arr.end(),arr.end(),::tolower()) 

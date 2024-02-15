@@ -1,0 +1,76 @@
+
+DSA prep
+
+check all graph algorithmas
+check tree 
+check linked list 
+
+check links
+
+
+Check interview experience links
+
+
+
+React native Round
+
+Babel 
+Reconcillation
+reduce
+hooks
+lifecycle of widgets
+hooks
+have a look on redux
+javascript methods (have a look on Namaste Javascript course)
+etc
+
+HLD and LLD
+
+
+
+
+HR round 
+
+what you have done ::---
+You have done a lot  of things 
+
+added a substitute of pub-sub model i.e. MQTT
+to receive logs via MQTT protocol
+integrated firebasae crashlytics
+integrated Firebase notification (backend too)
+integrate local notification (notifee) 
+State based noticiation (exercise notification)
+google health kit for steps
+apple health kit for steps
+
+and make components,screens from UI design figma
+
+offline sync work in progress
+use of REACT Query
+make react native first offline using React Query 
+
+
+Popular packages i have used
+React Query for offline sync 
+React-nativ-mmkv for key value store
+Notifee for local notification 
+Raect-Navigation
+Async Storage
+etc 
+
+
+push app to testflight, appstore and playstore
+generate certificates for ios 
+
+
+
+
+
+
+extras if time prevails 
+read HLD design , LLD Design
+read about javascript and namaste javascript notes 
+
+
+react-native-community  -> slider,checkbox,netinfo
+

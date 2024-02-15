@@ -1,0 +1,21 @@
+//if we hace to remove something from number and find the maximum after removing 
+then first convert it to string
+
+//e.g. 65696
+// remove 6 such that resulting will be largest
+https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/
+
+
+microsoft ask tricky question not hard like ,,it want smart guys
+//questions can only be solved in smart way
+2nd link
+
+
+
+2 hashmap can be compared with == operator
+
+
+
+sliding window can be converted to stack
+
+e.g. in problem to find truncat repeated character we can use stack instead of sliding window

@@ -1,0 +1,28 @@
+top priority task 
+start tree series and solve question 
+linked list 
+heap
+trees
+graph 
+and adv _questions
+
+after office check previously asked intervieew questions 
+
+
+see notes and solve questions
+
+
+least prioritized tasks
+adv tree dp 
+
+
+
+
+
+check left DP
+check graphcheck trees 
+check leetcode
+
+in office write code and improve speed for it 
+
+

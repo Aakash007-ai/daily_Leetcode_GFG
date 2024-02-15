@@ -1,0 +1,31 @@
+Directed Acyclic Graph :-
+Graph in which we can't start and end at the same node
+
+Degree of Graph :-
+It is the number of edges that go inside or outside that node.
+
+for undirected 
+Total Degree = 2 * no. of edges
+
+Directed graphs :- Indegree & Outdegree. 
+The indegree of a node is the number of incoming edges. 
+The outdegree of a node is the number of outgoing edges.
+
+
+TODO :- initialize and create a 2d matrix
+*if we have adjacency matrix and indexing is 1 then create adjacency matrix of size n+1
+* vector<vector<int,int>> adjMat(n+1,vector<int> (n+1,0))
+
+Adjacency list
+* vector<int> arr[n+1];
+
+* while traversing before pushing any node to queue mark it as visited if it is not visited then push it into queue
+    else do't push that node in queue which is not visited
+
+* if graph can be disconnected then we have to make an visited array to traverse over all array and make a start from initial point
+
+TODO :- gets hands on with vector<int> adj[n+1] and vector<vector<int>> v; which is best
+while taking in put in adjacency matrix initialize matrix with 0,0
+
+
+TODO :- how to pass adjaceny list to function as value (first solve question no 4 dfs in graph )

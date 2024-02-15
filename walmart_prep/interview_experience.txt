@@ -1,0 +1,177 @@
+first DSA
+second based on react and 
+
+third system design
+interview
+
+1hr 5 minutes 
+linked list and tree and array
+theoritical question
+
+after 15minutes clear or not then join on same 
+then javascript
+
+then programming question on javascript then call on 
+
+then
+managerial round ---HLD get feedback from interviewer
+how you approach project
+then at last how much time , jow add security how add componnet
+
+all intervuew round for 1 hr
+
+2-3 HR 
+
+update after 3-4 days then HR round after 1 week
+
+Project related questions
+
+
+
+
+
+
+2nd
+Walmart Labs
+referral link but interview was lengthiest 2 round 5 telephonic
+
+Question design a stack  such that  it provides push(),pop(), min()
+
+find one triplet such that indexex are in increasing order so as value at index 
+
+calculate power of x with all 
+
+find pivot in  sorted rotated soted  array 
+
+Design  a app for Railway Ticketing System
+
+
+(Give answer)
+
+HR Round offline
+Project Discussion (what we are working on and what is your contribution)
+What version everything in 
+
+
+Waht  is immutable class in java and what is it significancce in java
+
+java memory model changes in java 8, metaspace concept. what's its benefit
+
+
+Design Pattern I have used. Also what are DP i know
+
+if multiple servers are in picture, how to send request to handle by multiple server
+how to send multiple request to handle by multiple server thread pool
+
+Read a paragraph from file and print the  palindromes
+
+There are 5 threads that perofrms the same task.Main thread starts all these threads.
+Find out which  thread give fastest result
+
+Design a system where you can subscribe to daily need things
+
+
+Write a program to find the number in sorted array
+constrained : you don't know the size of array and you should try without finding array size
+
+How hashcode and equals works
+
+
+
+
+
+Luv 
+walmart interview experience
+
+online coding round
+coding round how to spiral travese a binary tree
+make a mirror tree from given treee
+given 2-d aray find submatrix maximum sum 
+many nodes are given find dead and alive node 
+
+HR Why walmart , how you handle fights between 2 member and 
+
+DBMS 
+
+projects, coding 
+coding 
+cv projects
+
+
+2nd 5 rounds will skip if you are good
+dijkstra
+DP simple 
+array question 
+convert binary tree to BST
+
+have a data stream (heapify)
+
+3rd round os locking
+1 million entries how you distribute and distrubing 
+linked list
+
+
+always answer that is beneficial to company
+
+
+for offcampus
+person resume where he is working , 
+DSA how you able to code and coding styles like how you cover base cases 
+
+//DSA normally for off campus question 
+but questions get twisted later
+
+pass Data Structure
+
+how well he is communicating how he is listening to details
+
+how much subject matter(which are used in industry e.g. DBMS what is indexing)
+answer some of it 
+
+Not totally screw it (try to give something)
+
+Mistakes
+Questions are not cleared 
+if you directly know answer and start writting
+so, discuss and get to a approach
+Communications skills matter a lot ()
+
+interveiew appraoch how you approach a question and be loud if you don't know questions 
+Hinglish is working 
+Tell at least basic solutions
+Always try to improve things optimise things
+
+
+
+
+
+
+
+online coding 
+hashmap
+dequeu
+DP
+
+Max Path Sum in tree
+find a anagram
+
+next greater element
+
+find next missing elementjava threading concepts 
+
+how you get the race condition and how deadlock how you solve it 
+
+how you will create deadlock 
+
+
+(for javascript check life cycle)
+
+
+
+
+
+what is indexing in javascript
+
+
+
+
