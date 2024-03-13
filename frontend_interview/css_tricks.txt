@@ -1,0 +1,47 @@
+
+
+
+padding property of a box applies between  boundary and its child
+
+margin align applies between its boundary and outer sapace
+
+for any fragment <></>
+
+by default it is column 
+(means main axis up to down) or main axis is vertical
+
+cross axis (horizontal  side by side)
+
+
+
+if we give flexDirection as row
+main axis along row as (horizontal)
+
+so cross axis (vertical) or top to bottom
+
+
+align-item ~~~~~~ justify-content  ~~~~~~~~~~~~~~  
+
+AI :- alignItem (works as cross axis)
+JC :- justifyContent (work as main axis)
+
+
+table
+
+column -----  main axis
+
+alignItem ::::::----------  work on cross axis
+center ----- center of cross
+flex-start ---- cros-leftmost
+flex-end --------- cross -rightmost
+stretch (stretch cross left-right)
+
+baseline (put all on main equivalent)
+
+
+justify content  ::::::------------ works on main axis (verify it again)
+center
+flex-start
+flex-end
+space-between
+no baseline

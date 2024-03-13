@@ -1,0 +1,56 @@
+
+B
+A
+kj
+
+
+
+sudo apt upgrade
+
+sudo apt update
+
+
+
+
+//installing node
+sudo apt update
+sudo apt install nodejs
+
+
+curl -fsSL https://deb.nodesource.com/setup_21.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
+
+//display all info about ubuntu
+uname -a
+//display about machine architecture
+
+
+
+to install a package if we have its zip file then extract in proper location 
+in our case it is tools
+then got to bin folder of that tool
+open that folder in terminal 
+and copy the pwd path (path will start from home)
+nano ~/bashrc
+
+export PATH={paste path here}:$PATH
+export PATH=/home/aakash/tools/node-v20.11.1-linux-x64/bin:$PATH
+
+source ~/.bashrc
+
+
+
+
+
+
+
+
+
+
+
+
+//check java version
+java --version
+
+//location of java version installed
+which java  

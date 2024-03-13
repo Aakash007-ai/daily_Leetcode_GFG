@@ -1,0 +1,9 @@
+ls -ltr //list all files and folder with their permissions executable
+//also display line by lineprint line by line
+
+ls -a //list all things with hidden files and folders (files starting with . is hidden)
+
+ls // list all files and folders
+
+//movae a file from one location to other
+mv source_file_name destiation_existing_folder

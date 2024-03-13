@@ -1,0 +1,4 @@
+priority queue
+
+
+priority_queue<int> pq ; //what if i put repeating characters

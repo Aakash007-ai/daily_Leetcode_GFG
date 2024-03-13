@@ -1,0 +1,22 @@
+group messaging
+sent+delivered_read receipts
+online/ last seen
+image sharing
+chats are temporary/permanent
+
+one to one chat 
+
+
+
+mobile to web servers (gateway )
+
+initially request received to gateways
+
+Gateways filtererd out the network request from unauthorized sources
+(by default their headers are bulky)
+
+A---------------GAteway1
+B---------------Gateway2
+C---------------Gateway3
+
+and we maintain which user connected to which gateway by Sesssion Microservice (which is like distributed Storage if one out then other start)

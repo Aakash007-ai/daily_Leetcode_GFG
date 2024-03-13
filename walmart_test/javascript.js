@@ -2,6 +2,15 @@ eventloop;
 
 // flex direction and flex wrap
 
+
+//local varaible does not get updated //while state variable does in interval function
+
+var a=10;
+setInterval(()=>{
+    console.log(a);
+    a++;
+},1000)
+
 //custom hooks
 
 var a = 1;
