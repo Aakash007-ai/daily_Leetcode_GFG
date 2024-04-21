@@ -34,4 +34,10 @@ int main(){
 
     //vector<vector<int>> ans;
     // ans.back() //give us last vector
+
+
+
+    int n=6,m=3;
+    int sol=m-- + n-- -1;
+    cout<<"\n"<<sol;
 }

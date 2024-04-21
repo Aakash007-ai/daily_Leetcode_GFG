@@ -22,7 +22,10 @@ public:
             if(ans.back().back() >= intervals[i].front()){
                 //then sore maximum of back
                 ans.back().back() = max(ans.back().back(),intervals[i].back());
+            }else{//we have a fresh new interval
+                ans.push_back(intervals[i]);
             }
         }
+        return ans;
     }
 };
