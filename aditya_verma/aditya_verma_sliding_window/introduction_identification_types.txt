@@ -1,0 +1,46 @@
+problem statememtn given an array and a number
+arr 2 3 5 2 9 7 1
+k = 3 size of subarray
+
+subarray contiguous part of array
+so find maximum of subarray sum of size k
+
+brute force
+for(int i=0;i<n;i++){
+    for(int j=0;j<k;k++){
+        find sum upto k
+    }
+    max 
+}
+
+so , optimizing this 
+check for repeted work 
+we are doing sum again of same int 
+
+so one way is doing prefix sum but it takes o(n) space extra
+another way 
+start traversing over array until window is made
+once window is made we compare it with ans and move 1 window forward by deleting first element and adding next window element of array
+
+
+identification 
+array/string ask for subarray/substring with largest sum and a window size
+
+for varaible window size we are asking for window size
+so , we traverse until we are moving toward condition and break as condition start fails in same way deleting first elements of window and adding next elements
+
+e.g we are given a sum find window of max length
+arr 3 2 4 5 1 1 1 1 1 2 3 3
+
+so 2 pointer i and j
+while(j<arr.size()){
+    if(wsum > sum){
+        delete last and add new
+    }else if( wsum<sum){
+        increase window size
+    }
+
+    //check if condition met
+    
+    
+}

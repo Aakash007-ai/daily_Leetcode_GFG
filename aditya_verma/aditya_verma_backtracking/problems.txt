@@ -1,0 +1,15 @@
+backtracking problem
+
+level 1
+permutation of a tring 
+larget number in kth ap 
+n digit number ith digit in increaing order
+
+level 
+rat in a maze
+ord break
+palindrmo partioning
+combinational um
+udoku
+n queen
+4 letter digit

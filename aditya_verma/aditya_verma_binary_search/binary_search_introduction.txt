@@ -1,0 +1,28 @@
+Binary Search
+
+ask in interview in coding too by many good companies
+
+Problems
+
+Binary Search
+order agnostic binary search 
+Ist and last occurence of an element
+count of element in a sorted array
+number of times array is rotated
+find an elemnt in rotated sorted
+searching in nearly sorted array
+floor/ceil of an element
+next letter
+index of last 1 in sorted array 
+find the positive of an elemrnt in a sorted array 
+minimum difference element in a sorted array
+bitonic array max elemnt
+search in bitonic
+search in rowwise + columnwise sorted matrix
+find element in sorted array that appear only once
+allocate minimum number of pages (flipkart same format question)
+
+
+
+so whenever there is sorted there may be a chance of binary search 
+binary search on answer (array is not sorted even)

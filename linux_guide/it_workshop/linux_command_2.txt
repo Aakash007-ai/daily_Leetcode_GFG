@@ -1,0 +1,149 @@
+l -l //lit all file and folder ith their permiion in listview
+l -S //ize ie 
+l -t //time ie
+l -a //file and folder ith hidden etenion .
+
+man l -a //to 
+man l //to read more about that command
+
+
+echo abc //print after echo check tring
+
+bc //open baic calculator
+
+date print today date
+
+date +%m //month number
+date +%h //month firt 3 character
+date +"%m%h"
+
+man date  //check format in firt line
+
+
+mkdir new_folder //create a new folder with this name
+
+cat > hello.txt //will create a new file with hello.txt and allow us to write there
+
+cat hello.txt //view hello.txt file content
+more hello.txt //view content of this file
+
+man command_name //show all info about this command
+
+cd abc //go inside abc directory
+
+pwd //print working directory path
+head hello.txt //show first 10 lines of that file
+tail hello.txt //show last 10 lines of that file
+
+rm abc //remove file name abc 
+rmdir dir_name  //remove that empty directory 
+
+rm -r dir_name  //remove directory with its files and folders
+
+cp source_filename/filelocation..txt file_destination //copy and paste that file 
+cp source_filename/filelocation..txt file_destination/dd.txt //copy to that dd.txt
+
+
+cal //show calender
+cal 9 2020
+
+uptime //log in time, user , load average
+
+
+
+cat abc.txt //command to view abc content
+cat abc.txt >> add_next.txt //append content of abc.txt to add_next
+
+whoami //show username
+
+
+chmod u/g/o +/- w filename 
+chmod u/g/a +/- w filename 
+
+4 for giving read permission
+2 for giving write permissoin
+1 for execute permission 
+
+
+chmod 222 filename //giving write permission for all user,group all //w-w-w
+chmod 422 filename  //giving read permission to user,write to otheres //r-w-w 
+chmod 622 filename //giving read write (4+2 = 6) permsiiion to user  //rw-w-w 
+chmod 722 filename //giving all permission to user //rwx-w-w
+
+
+
+
+cat > hello.txt //cat take standard input and append to file name to hello.txt (output)
+
+wc filename //line word character 
+
+> //redirected output take output to next file redirection
+
+cat > hello.txt //overwrite content to hello.txt 
+cat >> hello.txt //append to that file
+
+cat hello.txt >> abc.txt 
+cat *.txt >> abc.txt
+
+
+wc hello.txt 
+wc < hello.txt 
+
+< //take standard input from file 
+
+
+who >> hello.txt  //append output of who to hello.txt 
+> //single used to overwrite as new file 
+
+
+
+who | wc -l    // | pipe who output send to wc -l as argument of input_file
+who | wc -l > text.txt // and redirect its output to that file 
+
+
+ls | more //display whole list in 1 page and then move to next 
+
+cat > hello.txt //here it will take input from io device
+
+25*6
+
+bc < calc.txt > result.txt //bc execute statement from calc.txt and redirect its output to results.txt 
+
+
+ls li* //list all files starting with  li 
+ls test*.* search all file with this pattern
+ls test?.txt //upto 1 char after test 
+ls t????.* //all file starting with t and have max 4 char after that 
+ls test[12].*
+
+
+
+wc -c abc.txt
+
+
+gzip abc.txt //compress this file 
+//this does not't compress directory but compress multiple files at once 
+
+gunzip abc.txt.gz //unzip file 
+
+
+
+tar -cvf result.tar file2 file3
+//cvf create display
+
+tar -xvf result.tar //extract that tar 
+
+
+
+sed '3q' file.txt //display only first 3 line of this
+sed 'wc - l temp.text' temp.txt 
+sed '1,2p' file.txt //repeat 1&2 2 line  double and print left content 
+sed -n '1,2p' file.txt //first 2 lines 
+sed -n '1,3p' file.txt 
+sed -n -e '1,2p' -e '$p'
+
+
+sed -n '/Lotus/p' abc.txt //print all lines starting with lotus 
+
+
+

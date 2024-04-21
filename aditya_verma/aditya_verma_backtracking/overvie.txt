@@ -1,0 +1,126 @@
+what is backtracing?    
+df beteen bt,dp,recurion
+
+pa by value v pa by reference(backtracking)
+
+bt = controlled recurion + pa by reference
+
+
+recurion -> choice + deciion
+
+it children 
+dynamic programming , backtracking , divide and conquer
+
+dp ak for optimal(maimie profit)
+
+in baic recurion e got an from leaf node    
+in dp , e make uboptimal problem aand get an from root node
+
+
+backtracing = recurion + controlled
+(e ak for combination) e got an from a path from root to leaf
+
+e.g print path to reach home in 4 tep
+
+control recurion mean going only to that path hich are valid , dropping off to tree from hich e can't get an 
+pa by reference e tart from root and get an from leaf after traveringo e have to get edit tr by reference
+
+e do pa by reference , make change in reference and call for net node and afer coming from node e revert change
+
+
+
+identification of backtracking
+choice+deciion
+all combinationcontrolled recurion(all path, all valid tring)
+numer of choice more than of normal recursion
+size of contraint(more number of child uually give ho many child can be)
+controlled recurion , e go for only valid node (neglecting nodefrom hich e can't get an)
+
+size of contraint 
+tring ize n 1<n<1e6
+1<n<30 //o get epectd time compleity recurion 2^n 
+
+don't be greedy (greedy make larget number in k ap, o e become greedy and try to make larget in firt attempt)
+e.g. 4577 find greatest number in 2 swaps
+here by default we think of greedy
+7547 -> 7745 hen apping ith firt larget
+if apping a 7574->9954 here greedy fail and backtracking ued        
+
+um up 
+coice and deciion
+all combinationintead of greedy ued backtracking
+control recurion 
+ize of contraint
+number of choice
+don't be greedy 
+recurionn=backtrackiung 
+
+
+
+
+generalization of backtracking
+flo
+recap
+bt -> recuroin ->parent
+number of choice largetcontrol recurion (a pecific path to earch for)
+pa by reference
+
+
+o if backtracking i recurion
+then backtracking ha thing that ha common in backtracknig
+
+o recurion i function calling itelf ith it child 
+o backtracking i a function uuaaly void 
+e add bae condition to stop it
+
+
+base condition
+void func(){
+    if(iolved()==t)
+    {
+        print/ave => voila
+    }
+}
+
+alo backtracink may have multiple call becaue of multiple choice
+o e add a for loop for that or 
+void func(){
+    //bae condition 
+    if(iolved()){
+        print/ave
+    }
+    for(c in all choice){
+        olve()
+    }
+}
+
+
+control recurion :- e olve for only choice hich ill yield an oterie don't call for recurion
+
+void func(){
+    //bae condition 
+    if(iolved()){
+        print/ave
+    }
+    for(c in all choice){
+        if(ivalid())
+        olve()
+    }
+}
+
+if e are paing pa by reference e revert after call otherie not
+
+
+backtracknig generalization
+void olve(&v){
+    if(iolved()==true){
+        print/ave
+    }
+    for(c in all choice){
+        if(ivalid()==true){
+            change in v
+            func(v)
+            rever v
+        }
+    }
+}

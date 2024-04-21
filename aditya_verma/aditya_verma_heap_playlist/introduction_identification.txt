@@ -1,0 +1,43 @@
+asked in flipkart interview  with great base 16 ctc 20
+
+given k and smallest/largest 
+
+which heap to choose
+
+k+smallest -> max heap 
+k+largest -> min heap 
+
+
+kth largest element  -> we put element and remove k elements from heap
+
+
+k are sorting questions,
+
+we can do by sorting nlogn
+
+but using heap of size k time complexity becom nlogk
+
+
+problem :-----find kth largest element 
+we iterate over array and going to push it in heap and maintain the size of heap k 
+e.g. if we are going to push and size of heap is k so we first pop out then push in heap 
+
+
+following this we have time complexity become nlogk 
+
+
+so as we have chosen max heap (maximum element will be at top)
+at the end of array the topmost element is ans kth smallest element 
+
+
+
+
+
+priority_queue<int> pq, //max heap max element at top 
+priority_queue<int,vector<int>, greater<int> > pq
+
+
+typedef pair<int,pair<int,int>> ppi
+
+
+

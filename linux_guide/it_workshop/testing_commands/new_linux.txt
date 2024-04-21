@@ -1,0 +1,83 @@
+l -l //lit all file and folder ith their permiion in listview
+l -S //ize ie 
+l -t //time ie
+l -a //file and folder ith hidden etenion .
+
+man l -a //to 
+man l //to read more about that command
+
+
+echo abc //print after echo check tring
+
+bc //open baic calculator
+
+date print today date
+
+date +%m //month number
+date +%h //month firt 3 character
+date +"%m%h"
+
+man date  //check format in firt line
+
+
+mkdir new_folder //create a new folder with this name
+
+cat > hello.txt //will create a new file with hello.txt and allow us to write there
+
+cat hello.txt //view hello.txt file content
+more hello.txt //view content of this file
+
+man command_name //show all info about this command
+
+cd abc //go inside abc directory
+
+pwd //print working directory path
+head hello.txt //show first 10 lines of that file
+tail hello.txt //show last 10 lines of that file
+
+rm abc //remove file name abc 
+rmdir dir_name  //remove that empty directory 
+
+rm -r dir_name  //remove directory with its files and folders
+
+cp source_filename/filelocation..txt file_destinationl -l //lit all file and folder ith their permiion in listview
+l -S //ize ie 
+l -t //time ie
+l -a //file and folder ith hidden etenion .
+
+man l -a //to 
+man l //to read more about that command
+
+
+echo abc //print after echo check tring
+
+bc //open baic calculator
+
+date print today date
+
+date +%m //month number
+date +%h //month firt 3 character
+date +"%m%h"
+
+man date  //check format in firt line
+
+
+mkdir new_folder //create a new folder with this name
+
+cat > hello.txt //will create a new file with hello.txt and allow us to write there
+
+cat hello.txt //view hello.txt file content
+more hello.txt //view content of this file
+
+man command_name //show all info about this command
+
+cd abc //go inside abc directory
+
+pwd //print working directory path
+head hello.txt //show first 10 lines of that file
+tail hello.txt //show last 10 lines of that file
+
+rm abc //remove file name abc 
+rmdir dir_name  //remove that empty directory 
+
+rm -r dir_name  //remove directory with its files and folders

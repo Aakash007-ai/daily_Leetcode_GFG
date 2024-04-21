@@ -1,3 +1,15 @@
+https://www.learnenough.com/command-line-tutorial/manipulating_files 
+
+//learn command line best way 
+
+
+
+
+
+
+
+
+
 https://www.linkedin.com/posts/arpitbhayani_looking-for-a-frontend-engineer-i-to-own-activity-7170996412682362880-ryMb/?utm_source=share&utm_medium=member_android
 
 duggup assignment
@@ -26,3 +38,4 @@ check linkedin apprentice engineer post
 
 
 
+https://usaco.guide/general/cpp-command  //cpp best competitive for all

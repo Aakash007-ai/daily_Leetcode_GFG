@@ -1,0 +1,14 @@
+build a task reminder 
+
+
+https://intellij-support.jetbrains.com/hc/en-us/articles/15268113529362-Inotify-Watches-Limit-Linux
+
+e.g. 
+
+Remind me of quotes 
+Remind me of maintaining my Streak of next 3 months (focs, dedication and sheer will)
+Count days or anything that need to be remind to do that on everyday 11 p.m.
+I want to remind myself of current month task for every friday evening, on every Saturday, Sunday
+
+
+

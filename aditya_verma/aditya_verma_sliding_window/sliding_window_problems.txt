@@ -1,0 +1,18 @@
+Problems
+
+Fixed window 
+max min of subarray of size k
+ist -ve in every window size of k
+count occurence of anagram
+maximum of all subarray of size k
+max of min for every window size 
+
+
+varibale
+largest/smallest subarray of sum k
+largest substring of k distinct characters
+length of largest sub string with no repeating characters
+pick toy (identification of sliding window)
+minimum window substring (*****most imp)
+
+

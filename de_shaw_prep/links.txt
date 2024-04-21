@@ -1,0 +1,25 @@
+
+yt tutorials
+
+
+https://www.youtube.com/watch?v=nI4I40sVWfU
+
+try some aptitutde
+https://www.competoid.com/answers/3077/1/Aptitude/
+
+cs core interview questions
+https://drive.google.com/file/d/12ot1zxhEHYgNu9WmjIYpLVhSHc7WYEl8/view
+
+asked
+https://drive.google.com/file/d/1sKxt5oWs07zvvnkNE_UttglhjEUTQMYP/view
+
+
+
+found 
+DP , greeedy , kadane and other array problems priority queue
+custom sort
+
+preparation :- 
+try some aptitude questions:- 
+ok try striver DP sheet completely
+then check adv yt videos
