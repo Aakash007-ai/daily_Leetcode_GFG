@@ -13,7 +13,8 @@ int main(){
         cin>>arr[i];
     }
 
-    priority_queue<int> pq(arr.begin(),arr.end());
+     priority_queue<int> pq(arr.begin(),arr.end());
+    //priority_queue<int, vector<int>, greater<int>> pq(arr.begin(),arr.end());
 
     while(!pq.empty()){
         cout<<pq.top();pq.pop();

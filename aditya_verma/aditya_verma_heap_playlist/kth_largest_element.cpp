@@ -5,7 +5,7 @@ using namespace std;
 int kthLargest(vector<int> arr, int k)
 {
 
-    priority_queue<int, vector<int>, greater<int>> pq; // min heap smallest element at top
+    priority_queue<int, vector<int>, greater<int>> pq; // min heap smallest element at top when pop
     for (int i = 0; i < arr.size(); i++)
     {
         pq.push(arr[i]);
@@ -23,12 +23,21 @@ int main()
     int n;
     cin >> n;
     vector<int> arr(n);
+    priority_queue<int, vector<int>, greater<int>> pq;
+    
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i];
+        pq.push(arr[i]);
+
     }
     int k;
     cin >> k;
+
+    while(!pq.empty()){
+        cout<<pq.top();
+        pq.pop();
+    }
 
     cout << kthLargest(arr, k);
 }

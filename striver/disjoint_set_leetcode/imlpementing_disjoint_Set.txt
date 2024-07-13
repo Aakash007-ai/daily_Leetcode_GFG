@@ -1,0 +1,66 @@
+How we implement a disjoint set 
+the find function of a disjoint setthe union function of a disjoint set 
+
+//here we implement the logic we discussedin theory.txt
+
+we are given number of vertices
+
+so we need parent array of size with its parent itself
+0 1 2 3 4 5
+0 1 2 3 4 5
+
+
+union operation
+(0,1) (0,2) 1,3 4,8 5,6 5,7
+
+(0,1) min is 0 so we choose 0 as root node and parent of 1 as 0 as parent of 1 was 1 same node 
+0,2 min 0 and parnet of node 0 we have 0 so we mark parent of node 2 as 0
+
+0 0 0 3 4 5 6 7
+0 1 2 3 4 5 6 7 8
+
+for 1,3 
+//so parent of 1 is not 1, so we just mark parent of 3 as 1
+0 0 0 1 4 5 6
+0 1 2 3 4 5 6
+
+for 4,8
+
+
+for 5 ,6
+
+for 5,7 
+
+
+we finsihed connecting nodes 
+when we use find 0,3 1,5 7,8
+
+so we find parent of 0 and 3 respectively until node!=parent 
+and comparet them
+
+
+
+so if we have to join/union 2 sets , we are given 7,8
+//so randomly we pick up root of 8 and attach to 7
+means now root of 8 set will be pointing to 7
+5-6
+|
+7
+|
+4
+|
+8
+0 0 0 1 7 5 5 5 4 9
+0 1 2 3 4 5 6 7 8 9
+
+Therefore
+
+The find function finds the root node of a given vertex.
+The union function unions two vertices and makes their root nodes the same
+
+
+There are two ways to implement a “disjoint set”.
+Implementation with Quick Find: in this case, the time complexity of the find function will be 𝑂(1)
+However, the union function will take more time with the time complexity of 𝑂(𝑁).
+Implementation with Quick Union: compared with the Quick Find implementation, the time complexity of the union function is better. Meanwhile, the find function will take more time in this case.
+

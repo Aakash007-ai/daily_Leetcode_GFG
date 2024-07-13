@@ -1,0 +1,23 @@
+So , we are given two vertives and we have to find quickly whether the two  are connected ?
+check that figure
+https://leetcode.com/explore/learn/card/Figures/Graph_Explore/Disjoint_Set_1_edited.png
+
+ Each graph consists of vertices and edges. The root vertices are in blue.
+
+
+The primary use of disjoint sets is to address the connectivity between the components of a network. The “network“ here can be a computer network or a social network. For instance, we can use a disjoint set to determine if two people share a common ancestor.
+
+Parent node: the direct parent node of a vertex. 
+Root node: a node without a parent node; it can be viewed as the parent node of itself.
+
+Disjoint set also known as union find 
+
+here we are given as 2 nodes are conencted 
+so initially we choose one of them as root and put other's parent as root
+so next time we are going to add more node we first check who is their parent
+//if their parent are same they are already connected 
+
+to remove ambuiguity we make smallest node as root and other one as parent 
+if parent is not index menas, it has its parent
+
+if both have different parnet then we need to merge the 2 different node

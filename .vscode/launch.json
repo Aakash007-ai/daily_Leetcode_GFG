@@ -2,6 +2,27 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "lld.shrayansh_jain_ytb.tic_tac_toe_lld.Main",
+      "projectName": "daily_Leetcode_GFG_e3aded1f"
+    },
+    {
+      "type": "java",
+      "name": "Store",
+      "request": "launch",
+      "mainClass": "lld.shrayansh_jain_ytb.observer_design_pattern.Store",
+      "projectName": "daily_Leetcode_GFG_e3aded1f"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "lld.shrayansh_jain_ytb.strategy_design_pattern.with_strategy_design_pattern.Main",
+      "projectName": "daily_Leetcode_GFG_e3aded1f"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

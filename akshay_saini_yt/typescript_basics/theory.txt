@@ -1,0 +1,59 @@
+types in typescript
+primitive types
+object types
+
+Primitive :-
+string,number,boolean,null,undefined,symbol
+
+Object types:-
+function ,arrays, classes,etc
+
+purposes of types in typescript :- typescript compiler analyze code for error using types, allows us to understand what values are associated with what variables.
+
+
+Inference :-
+inference.js
+
+number
+ all numbers in typescript are either floating point values or big integers
+ floating point have type number
+ big integers have type bugint
+
+ binary number uses a leading b lowercase or uppercase
+ let bin =0b100;
+ let binn : number = 0B010
+
+ ocatal use object
+ hexadecimal use 0X  or 0X
+
+ Big int represent whole numbers larger than 2^53-1
+ a big literal has the n char at the end
+
+
+string
+  "" or '' and for multiline we use ``
+
+object type represent all that are not in primitive (number,string, boolean,null , undefined,symbol,bigint)
+
+object vs Object.js
+
+array
+let arrayName : type[]
+
+let names : string[]
+
+tuple_enum.ts
+
+any_never.ts
+
+union a:number | string
+
+aliases_literal.ts
+
+control_statement.ts
+
+function.ts
+
+function_overloading.ts
+
+class.ts

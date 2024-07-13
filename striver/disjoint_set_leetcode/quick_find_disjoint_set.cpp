@@ -1,0 +1,71 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+class UnionFind{
+    private:
+        vector<int> root;
+    public:
+        UnionFind(int sz):root(sz){
+            for(int i=0;i<sz;i++){
+                root[i]=i;
+            }
+        }
+
+        int find(int x){
+            return root[x];
+        }
+
+        bool connected(int x,int y){
+            return find(x)==find(y);
+        }
+
+        void unionSet(int x,int y){
+            int rootX=find(x);
+            int rootY=find(y);
+            if(rootX!=rootY){ //change all modes whose root is rootY to rootX
+                for(int i=0;i<root.size();i++){
+                    if(root[i]==rootY){
+                        root[i]=rootX;
+                    }
+                }
+            }
+        }
+};
+
+
+// Test Case
+int main() {
+    // for displaying booleans as literal strings, instead of 0 and 1
+    cout << boolalpha;
+    UnionFind uf(10);
+    // 1-2-5-6-7 3-8-9 4
+    uf.unionSet(1, 2);
+    uf.unionSet(2, 5);
+    uf.unionSet(5, 6);
+    uf.unionSet(6, 7);
+    uf.unionSet(3, 8);
+    uf.unionSet(8, 9);
+    cout << uf.connected(1, 5) << endl;  // true
+    cout << uf.connected(5, 7) << endl;  // true
+    cout << uf.connected(4, 9) << endl;  // false
+    // 1-2-5-6-7 3-8-9-4
+    uf.unionSet(9, 4);
+    cout << uf.connected(4, 9) << endl;  // true
+
+    return 0;
+}
+
+
+//time complexity 
+// 	                Union-find Constructor	Find	Union	Connected
+// Time Complexity	        𝑂(𝑁)	             𝑂(1)    𝑂(𝑁)    O(1)
+
+
+// Note: N is the number of vertices in the graph
+// When initializing a union-find constructor, we need to create an array of size N with the values equal to the corresponding array indices; this requires linear time
+// Each call to find will require O(1) time since we are just accessing an element of the array at the given index.
+
+// Each call to union will require O(N) time because we need to traverse through the entire array and update the root vertices for all the vertices of the set that is going to be merged into another set.
+// The connected operation takes O(1) time since it involves the two find calls and the equality check operation.
+
+// We need O(N) space to store the array of size N.

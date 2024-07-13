@@ -1,0 +1,6 @@
+factory pattern means it is the factory that gives you object
+
+You just pass your requirements what object you need it gives you that 
+So in order to produce that object we must have their class having same interface
+
+so in factory we know what type of interface class we have to whom object need to be created

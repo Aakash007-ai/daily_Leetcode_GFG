@@ -1,0 +1,25 @@
+diameter of a binary tree vvimp 
+maximum path sum from any node to any 
+maximum path sum from leaf to leaf 
+diameter of nary tree
+
+
+
+diameter may not always pass through root
+for each node calculate calculate max(maxHeight,left+right) 
+height of left tree + height of left tree 
+
+
+
+int solve(){
+    //recursive so base condition always there
+
+    //hypothesis
+    //we get ans from left subtree + right subtree
+    //and we calculate ans for that node as root 
+    //it recurively goes to left and right 
+    //at base condition we get at last
+
+    //induction
+
+}

@@ -1,0 +1,21 @@
+Data Structure :-
+It is a way of storing data in RAM
+RAM is Read only memory
+It store data. It has 2 sections Data and its address
+    Data    | | | | | | | |
+    Address | | | | | | | |
+
+RAM we generally says 4GB RAM
+4 * 10e9 Bytes
+where 1 Bytes means 4 bits
+and a integer takes 4 bytes of data 
+a char takes 1Bytes of data
+
+Array
+static array
+when we says an array, it means continguous allocation of data
+so there are static array and dynamic array
+writing , editing in static array O(1)
+dynamic array
+insertion time O(1) (by power exponention maths)
+

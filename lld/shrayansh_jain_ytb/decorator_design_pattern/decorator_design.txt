@@ -1,0 +1,14 @@
+in this we decorate an object to create a new object with additional properties
+like the pizza, base pizza and adding topping to it or coffee 
+so, think how can we achive this
+
+we are passing object of same type and returning object of same type
+normal pizza object we made 
+now we pass that noraml pizza to another object of same type
+
+so made an interface/abstract class which follow has a and is a relatinoship 
+
+
+
+signature of decorator class should be same as signature of base class
+so we have to inherit the base pizza too, since we wrap that in

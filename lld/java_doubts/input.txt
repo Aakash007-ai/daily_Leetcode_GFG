@@ -1,0 +1,18 @@
+// Printing output
+System.out.print("dfgfdg"+ hello)
+System.out.println("fdgfdgf" + true)
+
+
+//getting input
+
+//getting 2 numbers
+Scanner inputScanner = new Scanner(System.in);
+           String s = inputScanner.nextLine();
+            String[] values = s.split(",");
+            int inputRow = Integer.valueOf(values[0]);
+            int inputColumn = Integer.valueOf(values[1]);
+
+
+getting 2 characters
+
+getting a string 

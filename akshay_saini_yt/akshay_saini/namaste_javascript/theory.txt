@@ -1,0 +1,63 @@
+everything happen in javascript inside an execution context
+
+execution context is like big box having 2 components
+
+first component Memory componnet called variable environment where all variable and functions are stored as key value pair
+
+second component is called code component called thread of execution where whole code is executed line by line 
+
+
+JAvascript is a synchronous single-threaded language
+
+
+when we say single thread it means it execute only single line at one time  and sychronous meas it excute one line after another
+
+
+
+
+WHat happens whn we run a javascript program 
+a execution context gets created 
+check callstack.js
+
+
+
+*****parameter of the function and argument of function call
+
+
+
+hoisting in javascript
+access variable before we have initialized that 
+(as it is in memory context part)
+
+even before start executing code  memory get allocated to them 
+
+so var get defined as undefined
+and a simple function get copied line by line
+
+**arrow function are treated as normally like a varaible , it will give us undeifned
+
+it store as undefiend during runtime of execution context
+
+
+
+
+
+
+
+how function work in js
+
+
+
+
+
+
+shortest js program 
+
+we want to display a variable e.g. 
+console.log(x);
+
+it will try to find it in global context
+
+
+
+

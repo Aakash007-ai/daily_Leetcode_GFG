@@ -1,0 +1,26 @@
+neetcode 6 courses
+    neetcode 4 courses are available
+        dsa for beginners
+        advanced algo
+        system design for begineers
+        system design for interview
+
+aditya verma
+    Dynamic Programming
+    Heap
+    Binary Search
+    Sliding
+    All other videos
+
+System Design :- https://refactoring.guru/design-patterns/typescript
+
+OS with multithreading (later if required)
+DBMS required for projects
+
+Hackerearth Hackathon :- Simply do hackathons just to keep in touch with competitions
+
+Unstop :- Also check Unstop
+
+Just equip with knowledge and grind
+ 
+
