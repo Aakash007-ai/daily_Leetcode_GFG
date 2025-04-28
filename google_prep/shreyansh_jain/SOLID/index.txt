@@ -1,0 +1,9 @@
+solid principles 
+
+S 
+single responsiblity
+a class should have single reason to change
+(means a class should have one method coreesponding to its functionliyt)
+e.g. a clas register user and send mail both 
+
+class

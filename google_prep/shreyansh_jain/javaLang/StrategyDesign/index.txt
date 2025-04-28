@@ -1,0 +1,4 @@
+whenever we see subclass has a repetitive function based on some functionality/ or type
+//e.g. a drive strategy of a Car
+
+// suppose a class is there Car
