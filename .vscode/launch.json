@@ -5,6 +5,20 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "javaLang.NullObject.Main",
+      "projectName": "daily_Leetcode_GFG_e3aded1f"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "javaLang.ChainOfRessponsibility.Main",
+      "projectName": "daily_Leetcode_GFG_e3aded1f"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "lld.shrayansh_jain_ytb.tic_tac_toe_lld.Main",
       "projectName": "daily_Leetcode_GFG_e3aded1f"
     },
