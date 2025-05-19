@@ -1,0 +1,15 @@
+let's say we are asked to design file system
+
+so, in file system we know a directory can have file and a directory and further in that directory a file and nested directory
+
+
+a directory can have mulitple directory 
+so 
+Directory class {
+    String directoryName;
+    List<object> objectList;
+
+    and for ls we iterate over objectList , put a check whether it is file or object
+
+    if it is file typecast it and call for its ls method
+}

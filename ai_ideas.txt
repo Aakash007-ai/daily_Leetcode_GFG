@@ -1,0 +1,69 @@
+Sequoia Capital just announced the "first cohort" of winners in the new AI era.
+
+They are also watching a whole host of other companies which are beginning to emerge as leaders. 
+
+The market they are going after in AI is at least 10x bigger than the cloud transition. 
+
+And it's moving faster than any tech wave before it.
+
+Unlike previous tech transitions, AI had:
+
+• 5.6 billion people connected to the internet
+• Global social platforms with billions of users
+• No barriers to adoption
+• Distribution rails already in place
+
+Sequoia's analysis reveals several critical insights:
+
+1. The application layer is where the real value accrues
+ → Not just foundation models, but what's built on top
+
+2. The first cohort of AI's killer apps has emerged (according to them):
+
+ • ChatGPT - Conversational AI for general tasks
+ • Claude - Helpful writing and reasoning assistant
+ • Harvey - Legal AI for document drafting
+ • Sierra - AI agent for customer support
+ • Abridge - Medical conversation summarization and documentation
+ • Cursor - AI-powered coding and debugging assistant
+ • Glean - Workplace search across knowledge systems
+
+3. The next wave will be agent-first companies
+
+ → Vertical agents trained on specific workflows
+ → Agents that outperform human experts
+
+4. They say we are entering an "abundance era" where:
+ • Labor becomes cheap and plentiful
+ • Taste becomes the scarce asset
+ • Code is just the first market to tip
+
+For founders building in this space, Sequoia looks for:
+
+• Real revenue, not "vibe revenue" (tire-kicking)
+• Clear path to healthy gross margins
+• Data flywheels tied to business metrics
+• Trust from customers
+
+The AI economy is evolving toward multi-agent systems where agents work with each other and with humans - transferring resources, making transactions, and building trust networks.
+
+This requires solving major technical challenges:
+• Persistent identity
+• Seamless communication protocols
+• Security and trust mechanisms
+
+The companies that win will be those that move at "maximum velocity" right now. Because as Sequoia puts it: "Nature hates a vacuum."
+
+My personal opinion in watching this, attending events, and talking with others is two-fold:
+
+1. Deep industry knowledge
+
+AI struggles with nuance. It can't understand the unwritten rules of your industry, the subtle dynamics of your market, or why certain approaches fail despite looking good on paper.
+
+Your experience in knowing how things actually work - not just how they should work - is what transforms AI from a generic tool into a precision instrument.
+
+2. Real-world relationships
+
+Trust can't be automated (yet). The connections you build in person, the reputation you've earned, and the network you've cultivated are becoming your most valuable assets.
+
+In a world where anyone can generate content or ideas, people will increasingly turn to those they know and trust.

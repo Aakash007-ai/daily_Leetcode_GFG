@@ -1,5 +1,5 @@
 what is backtracing?    
-df beteen bt,dp,recurion
+df between bt,dp,recurion
 
 pa by value v pa by reference(backtracking)
 

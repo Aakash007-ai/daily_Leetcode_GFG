@@ -5,6 +5,20 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "javaLang.CompositeDesignPattern.Calculator.Main",
+      "projectName": "daily_Leetcode_GFG_e3aded1f"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "javaLang.CompositeDesignPattern.solution.Main",
+      "projectName": "daily_Leetcode_GFG_e3aded1f"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "javaLang.NullObject.Main",
       "projectName": "daily_Leetcode_GFG_e3aded1f"
     },
