@@ -9,7 +9,9 @@ using namespace std;
  * here check carefully int is in the range of this with signed digits,,
  * eiteher takes a new vairable with different type and assign it to them
  * 
- * also check we are decreasing by n times for below solution it will give time limit exceed . as by default it is exceeding memory  
+ * also check we are decreasing by n times for below solution it will give time limit exceed . as by default it is time complexity with o(n)
+ * it wil throw TLE error ,
+ * we have to reduce its time omplexity
  */
 
 class Solution {
