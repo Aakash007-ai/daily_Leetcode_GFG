@@ -1,0 +1,26 @@
+select * from crime_scene_report where type="murder" and date=20180115 and city="SQL City"
+
+date	    type	description                                                           	city
+20180115	murder	Security footage shows that there were 2 witnesses.                     SQL City
+                    The first witness lives at the last house on "Northwestern Dr". 
+                    The second witness, named Annabel, lives somewhere on "Franklin Ave".
+
+
+
+select * from person where name like "%Annabel%"
+id	    name	            license_id	address_number	address_street_name	ssn
+16371	Annabel Miller	    490173	    103	            Franklin Ave	    318771143
+78354	Annabell Siona	    158932	    978	            Whitewater Dr	    800278294
+78799	Annabell Droneburg	984316	    1944	        W Natalie Dr	    478793500
+86541	Annabell Zwilling	709133	    1859	        Patti Rd	        332961158
+
+
+//did not work it gives multiple rows
+select * from person where address_street_name in ("Franklin Ave" ,"Northwestern Dr")
+
+//we get only 1 witness id
+select * from person where name like "%Annabel%" and address_street_name="Franklin Ave"
+
+
+
+select * from person p inner join get_fit_now_member gfnm where p.name like "%Annabel%" and p.address_street_name="Franklin Ave"
