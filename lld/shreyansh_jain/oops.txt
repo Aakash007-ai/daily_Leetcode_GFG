@@ -1,0 +1,15 @@
+Object Oriented Programming 
+
+4 pillars of OOPS,
+
+Encapsulation
+Inheritance
+Abstraction
+Polymorphism
+
+Encapsulation means capusulating/grouping the data and methods together into 1 entity
+Inheritance means inheriting the property of parent to child
+Abstraction means hiding complexity from user and exposing only necessary methods 
+Polymorphism means a same function having different runtime, e.g. same method behave differently according to the input
+
+

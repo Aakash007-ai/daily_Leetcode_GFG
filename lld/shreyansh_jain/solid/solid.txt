@@ -1,0 +1,59 @@
+
+
+SOLID principle
+
+S single responsibility
+a method, class, function, interface should have a single responsibility to do a task,
+one responsibility to change, Separate concerns : domain , writes to DB, prints a PDF
+
+O Open to extend / close for change / close to modificaiton
+so we write code once such that once it is tested and push , rather than modifying it we can extend ts features into another class
+
+e.g.
+
+class SaveInvoiceDao {
+    Invoice invoice;
+
+    public InvoiceDao(Invoice invoice){
+        this.invoice = invoice;
+    }
+
+    public saveToDB(){
+        //save to db
+    }
+
+    public void saveToRedis(){
+        //save to redis
+    }
+}
+
+//here tomorrow we have another DAO method, we have to change this, so have to disrupt already tested code 
+
+interface InvoiceDao {
+    public void saveInvoice(Invoice invoice){}
+}
+
+public RedisSaveDAO implement InvoiceDao {
+    @override
+    saveInvoice(Invoice invoice){
+
+    }
+}
+
+
+--------------------------------------
+
+L  -  Liskov Substitution 
+It says , if class B is subtype of class A , then we should be able to replace object A with object B,
+
+example of Bike{
+    has engine
+}
+
+class Cycle implement Bike {
+
+}
+
+Bike cycle = new Cycle(); 
+
+I  - interface segragrated
