@@ -1,0 +1,1 @@
+Design patterns help us to write manageable, scabale, extendable code

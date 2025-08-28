@@ -56,4 +56,28 @@ class Cycle implement Bike {
 
 Bike cycle = new Cycle(); 
 
+base class should not narrow down its properties, 
+to avoid this kind of condition we put generic method in parent class , rather than all the methods
+
+so we divide the class into more categories e.g.
+class vehicle(){}
+
+class engineVehicle extends 
+
+
+-------------------------------
 I  - interface segragrated
+
+instead of a single fatty interface , there should be multiple interface
+
+---------------------------------
+
+D Dependency inversion 
+
+classes should depend on interfaces rather than another concrete classes
+
+
+
+--------------------
+the only main funda we found a Composition preferrable ,
+in interview rahter than inheirtance , we have a  has a relation , Dependency injection via constructor
