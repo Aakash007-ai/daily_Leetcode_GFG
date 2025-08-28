@@ -1,0 +1,18 @@
+Try to use concrete naming 
+
+for interfaces define common name of interfaces as class of objects it is going to behave
+
+for classes use Impl 
+
+e.g  
+
+export interface Vehicle {
+
+}
+
+class VehicleImpl implement Vehicle {
+
+}
+
+// here we use Impl to mmade that thing
+
