@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// always take n = size of array if not given (to prevent multiple calculation of size in for loop)
+
     void printVector(vector<int> &nums){
         int n = nums.size();
         for(int i=0;i<n;i++){
