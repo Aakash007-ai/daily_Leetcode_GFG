@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// improve it further
 
 class Solution {
 public:
@@ -15,10 +16,10 @@ public:
                 mp[s[i]] = i;
                 maxLen = max(maxLen, i-k+1);
             }else{
-                // we know at what idx we have that ele
-                while(s[k]!=s[i]){ //reset index
-                    mp.erase(s[k++]); // remove that element from map and update map
+                while(s[k]!=s[i]){
+                    mp.erase(s[k++]);
                 }
+                mp.erase(s[k++]);
                 mp[s[i]]=i;
             }
         }   
