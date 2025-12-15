@@ -5,7 +5,7 @@
 //     //javascript does not wait here
 //     setTimeout(function(){//this function forms a closure take reference of i
 //         //it takes this fucntion and attaches the time
-//         //as time run out it taken back and put in queue where event loop continue to 
+//         //as time run out it taken back and put in queue where event loop continue to
 //         //check the queue if it is empty then it will put the function in call stack
 
 //         console.log(a);
@@ -17,13 +17,12 @@
 // x=closeure();  //check whether they follow same closurr
 // y=closure();whether x and y follow same i or different
 
-
 // function counter(){
 //     //here i is a global variable
 //     //and it is not block scope
 //     //so closure formed by setTimeout will take reference of i not the value
 //     for(var i=0; i<10; i++){
-//         //var is stored in global scope and for every closure 
+//         //var is stored in global scope and for every closure
 //         //it will take reference of i
 //         setTimeout(function(){
 //             console.log(i); //it refer to i
@@ -32,7 +31,6 @@
 //     console.log("Start printing");
 // }
 // counter()
-
 
 // function counter(){ //using let
 //     for(let i=0; i<5; i++){
@@ -45,7 +43,6 @@
 //     console.log("Start printing");
 // }
 // counter()
-
 
 //now just use var
 //so we want a new copy of i for every closure
@@ -63,8 +60,6 @@
 //     console.log("Start printing");
 // }
 // counter()
-
-
 
 //check nested code execution callback with same new var inside e.g. a callback with same var variable
 // var i=0;1
@@ -98,8 +93,6 @@
 // outer()();
 // console.log(a); //outer can go inner but inner definitaion can't go outer
 // //as assume code execution of that fuction is over (get out of call stack)
-
-
 
 // function outer(){
 //     //var a=20;
@@ -141,7 +134,6 @@
 // var close=outest()("hello");
 // close()
 
-
 // //let naming conflict
 // function outest(){
 //     function outer(a){
@@ -162,14 +154,12 @@
 //closure used in function currying , module pattern, data hiding and encapsulation
 //e.g. we have a counter and initialize to 0
 
-
 // function counter(){
 //     var count = 0;
 //     count++;//here counter is a global variable and anyone can alter it
 // }
 // counter();
 // console.log(count); //it will give error as count is not defined
-
 
 // assigning same closure to multiple variable
 // function counter(){
@@ -185,7 +175,6 @@
 // var counter2 = counter(); //it will create a new closure
 // counter2();//it will start from 1
 // counter2();
-
 
 //scalable counter
 // function Counter(){ //good practice to start with capital letter (constructor function)
@@ -204,7 +193,6 @@
 // counter1.incrementCounter();
 // counter1.incrementCounter();
 // counter1.decrementCounter();
-
 
 //disadvantage of closure
 //there will be over consumption of memory as it will store the state of variable
@@ -229,7 +217,6 @@
 // var y=a();
 // y();
 
-
 ///////////////////////////////////////////////
 
 //first class function
@@ -244,7 +231,7 @@
 //difference between function statement and function expression is hoisting
 //function statement is hoisted but function expression is not hoisted
 
-//anonymous function (require a function name) is used 
+//anonymous function (require a function name) is used
 //where we pass a function as an argument
 //function (){ console.log("I am z");}
 
@@ -253,13 +240,12 @@
 // }
 
 // //named function expression , xyz is not in outer scope created as local scope
-// var c=function xyz(){ 
-//     console.log("I am z"); 
+// var c=function xyz(){
+//     console.log("I am z");
 //     console.log(xyz);
 // }
 // c()
 
- 
 // first class function
 // as we can pass a function as an argument
 
@@ -286,8 +272,8 @@
 //we can pass a function as an argument
 
 // console.log("Start");
-// setTimeout(function(){ //setTimeout take that callback function 
-//     //and register it with timer and after that time 
+// setTimeout(function(){ //setTimeout take that callback function
+//     //and register it with timer and after that time
 //     //it will put it in queue
 //     console.log("I am a callback function");
 // }, 3000);
@@ -308,7 +294,6 @@
 //     }
 // )
 
-
 //count how many times a function is called
 // function count(){
 //     var counter=0;
@@ -316,12 +301,10 @@
 //         counter++;
 //         console.log("Button clicked",counter)
 //     }
-
 // }
 // document.getElementById('btn')
 //     .addEventListener('click', count()
 // )
-
 
 // function counter(){
 //     var count=0;//we have attached a closure with callback function with scope of count
@@ -332,7 +315,6 @@
 // }
 
 // counter();//that scope will never be gonna garbage collected as it is attached to event listener
-
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //event loop
@@ -403,7 +385,6 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 
-
 //higher order function takes or return a function or both
 
 // const radius = [3, 1, 2, 4];
@@ -435,10 +416,9 @@
 //     return output;
 // }
 
-//here we have a problem in our code as we are repeating the code, 
+//here we have a problem in our code as we are repeating the code,
 //we are iterating again and again only changes is calculation
 // so we have to extract and pass array and logic to a fucntion and make a generic function
-
 
 //functional programming reduce function interview perspective it is most important
 // const radius = [3, 1, 2, 4];

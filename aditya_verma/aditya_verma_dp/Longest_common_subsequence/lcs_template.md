@@ -8,7 +8,7 @@ Largest Repeating Subsequence<br>
 Length of largest subsequence of a which is a substring in b<br>
 Subsequence Pattern Matching<br>
 Count how many times a appear as substring in b<br>
-Largest Palindromic Subsequence<br>
+Largest Palindrofmic Subsequence<br>
 Largest Palindromic Substring<br>
 Count of Palindromic Substring<br>
 Minimum no. of deletion in a string to make it Palindrome <br>

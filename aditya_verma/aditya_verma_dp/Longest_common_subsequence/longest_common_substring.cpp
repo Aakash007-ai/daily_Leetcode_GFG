@@ -17,9 +17,7 @@ class Solution{
                      mx=max(dp[i][j],mx);
                 }
                 else{
-                    dp[i][j]=1;
-                    
-                    // dp[i][j]=max(dp[i-1][j],dp[i][j-1]);
+                    dp[i][j]=0;
                 }
             }
         }
