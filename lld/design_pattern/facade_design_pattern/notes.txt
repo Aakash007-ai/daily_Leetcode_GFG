@@ -1,0 +1,10 @@
+facade design pattern , as it suggest 
+
+we have a client facing library with fixed method, 
+
+whatever change it happen behind the library does not affect the method parameters
+
+e.g. we don't know what is behind the sort function, even if a new kind of sort came tomorrow we don't know 
+we just change behind the scene
+
+and client code remain unchanged

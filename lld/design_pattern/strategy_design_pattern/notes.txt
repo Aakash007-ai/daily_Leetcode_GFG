@@ -1,0 +1,36 @@
+Strategy Design Pattern
+
+so suppose we have multiple child classes extended from parent class, parent class (abstraction class/interface)
+
+parent class have a method , implemented by child class , some group of class have this method same implementation
+ so we have to replicate this methods in some class
+
+
+ so here problem is implementing same method in multiple class
+
+ To solve this repetition we use Strategy Pattern 
+
+ without strategy example,
+
+ e.g. in CAR manufacturing , some cars have ( heavy engine in sports, luxury, LoadCarry vehicle and normal enginer in Commercial, Normal cars) 
+ for now we call it drive strategy some cars type have common drive strategy
+
+ to not to write this drive strategy again , we make a common and use dependency inversion to use this strategy 
+
+ another e.g.
+ in payment system , we have a process payment method 
+ process payment can pay via credit card, upi or anything ,
+ 
+
+contradict , what if we use if condition rather than multiple , then problem will be we have to add new strategy and have to change existing class
+
+
+so we have a strategy interface and their implementation
+with respective stratiegies
+
+and there is a respective a fixed class that has a relationship with strategy 
+on constructor injection we assign value
+
+and call that interface method
+
+in client code , client can pass any stratgy while creating processor class 

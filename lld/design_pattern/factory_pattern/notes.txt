@@ -1,0 +1,4 @@
+it is a design where , we have a factory class that give us object of particular class we required
+
+without factory pattern , we need to declare a class and then use it every time we need 
+before that we need 

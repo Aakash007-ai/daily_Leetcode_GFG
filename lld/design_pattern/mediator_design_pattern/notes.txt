@@ -1,0 +1,7 @@
+the mediator pattern , reduces the dependdencies between components by introducing a mediator that controls the communication between them. 
+This helps in avoiding tight coupling and makes system more flexible and maintainable
+
+e.g. chatRoom , in a chat room system , each user sends message to other user, 
+if each user were to communicate directly with others , 
+the system would become very complex. Instead we introduce a Chatroom (Mediator) that manage communicate between users
+

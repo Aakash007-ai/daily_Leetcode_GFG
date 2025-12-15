@@ -1,0 +1,33 @@
+purpose The command pattern turns request into object , 
+which allow us to parameterize other objects with different requests, 
+delay execution or support undoable operations
+
+example : Remote Control for Devices
+Imagine you have a universal remote control that can turn on/off devices like TV, stereo and lights. 
+.the remote control doesn't need to know the details of how each devices works.
+It only needs to send commands
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+either we call it command pattern or single chain responsibility 
+
+chain of responsibility :- it is used when we have to design atm machine, vending machine , 
+when we send a request and does not know who will fulfill it
+

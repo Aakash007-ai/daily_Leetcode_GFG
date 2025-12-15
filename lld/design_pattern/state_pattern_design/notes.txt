@@ -1,0 +1,12 @@
+State pattern 
+The State Pattern is a behavioural design pattern that allows an object to change its behaviour when its internal state change. 
+Let's look at an example of how the State pattern can be applied by comparing the code before and after
+
+Scenario
+We have a system that represents a vending Machine with different states.
+No Coin 
+Has Coin
+Sold out 
+Depending  on the state, the behaviour of the vending machine changes (e.g. it accepts a coin , dispense a product or indicate it is sold out)
+
+Before Apply

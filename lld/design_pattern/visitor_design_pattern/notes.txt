@@ -1,0 +1,9 @@
+the visitor design pattern lets you add further operations to object without modifying their structure.
+it allows you to define new operations on a set of objects by placing the operations in a separate object, called a visitor
+this promotes flexibility and separation of concerns
+
+
+e.g. shape visitor
+imagine a drawing system with different shapes. 
+You want to perform differnet operations (e.g. calculating area, drawing the shapes) on these shapes. 
+instead of modifying each shape class to accomodate new operations, we use the visitor pattern

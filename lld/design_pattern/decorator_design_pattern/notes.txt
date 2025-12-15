@@ -1,0 +1,27 @@
+in decorator design pattern, just think of pizza and toppings
+
+so we pass a object to a decorator and return a new class 
+
+so initially we have a base class, and we pass that class to another decorator class
+which definitely will have a has a type relationship and we override some its method 
+
+also decorator should also have a is a relationship to which it is receiving
+
+---------------------------
+so what we require ------------------------
+
+so decorator follow has a and is a relationship , 
+
+so we need a base class which which folows is a relationship, with method to be overide 
+so we declare an interface/abstract so here abstract class is required 
+
+
+
+// so we notice this decorator pattern prevent class explosion , 
+else we have to create multiple class with multiple permutation and addition of mulitple new classes , 
+if we add a new decorator
+
+
+
+
+// try with interface, why we can't use that

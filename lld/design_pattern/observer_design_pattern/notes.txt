@@ -1,0 +1,14 @@
+observer design pattern, or subscriber model
+
+so here are 2 entitiels observable and observer
+e.g. we have a weather station which broadcast temperature, humidity , which we called observable 
+another is tv display which listen to changes and perform actions , called observer 
+
+so when we said observer, it means we got our results here
+
+so weather station has a list of observer rather than  a single observer , 
+it has method setTemperature, which on change of temperature, it call notify method 
+
+notify method iterate over all oberserver in list and call their update mehtod (may pass that value, or it has instance of observable)
+
+observable will also have method like addObserver, removeObserver 
