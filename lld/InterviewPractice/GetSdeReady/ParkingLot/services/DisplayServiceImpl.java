@@ -29,5 +29,5 @@ public class DisplayServiceImpl implements DisplayService, Observer {
         int newCount = currentCount + changes;
         DisplayBoard.getInstance().getFreeParkingSpot().replace(event.getParkingSpotEnum(),newCount);
     }
-
+    
 }

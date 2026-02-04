@@ -14,43 +14,31 @@ using namespace std;
  */
 
  struct TreeNode {
-    int value;
+    int val;
     TreeNode *left;
     TreeNode *right;
-    TreeNode() : value(0), left(nullptr), right(nullptr) {}
-    TreeNode(int val) : value(val), left(nullptr) , right(nullptr) {};
-    TreeNode(int val , TreeNode *left, TreeNode *right) : value(val) , left(left) , right(right) {}
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int val) : val(val), left(nullptr) , right(nullptr) {};
+    TreeNode(int val , TreeNode *left, TreeNode *right) : val(val) , left(left) , right(right) {}
  };
 
-class Solution {
-public:
-    vector<int> inorderTraversal(TreeNode* root) {
-        vector<int> ans;
+
+ 
+class Solution{
+    public:
+    vector<int> inorderTraversal(TreeNode *root){
         stack<TreeNode *> st;
-        st.push(root);
-        while(root != nullptr || !st.empty()){
-            
-            while(root->left){
-                st.push(root->left);
-                root = root->left;
+        TreeNode *curr = root;
+        vector<int> ans;
+        while(curr || !st.empty()){
+            while(curr){
+                st.push(curr);
+                curr = curr->left;
             }
-
-
-            ans.push_back(root->value);
-            st.pop();
-            root = root-> right;
-    
-
-
-            
-
-        } 
+            curr = st.top();st.pop();
+            ans.push_back(curr->val);
+            curr = curr->right;
+        }
+        return ans;
     }
 };
-
-void inorder(TreeNode * root){
-    if(!root) return;
-    if(root->left) inorder(root->left);
-    cout<<root->value<<" ";
-    if(root->right) inorder(root->right);
-}
